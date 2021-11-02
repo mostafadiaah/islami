@@ -23,16 +23,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   late int currentindex;
   late int index;
-  List<String> hadeth = [
-    'حديث',
-    'حديث',
-    'حديث',
-    'حديث',
-    'حديث',
-    'حديث',
-    'حديث',
-    'حديث'
-  ];
+
   int num = 0;
   List<Widget> currentScreen = [
     RadioScreen(),
